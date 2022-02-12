@@ -1,6 +1,6 @@
 const router = require('express').Router();
-const routeDevicesAC = require('./route.devices.ac');
-const routeDevicesLights = require('./route.devices.lights');
+const routeDevicesAC = require('./ac');
+const routeDevicesLights = require('./lights');
 
 router.use('/ac', routeDevicesAC);
 router.use('/lights', routeDevicesLights);
