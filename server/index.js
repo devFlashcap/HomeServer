@@ -13,7 +13,7 @@ app.use(cors());
 app.use(express.json());
 
 // Set router
-app.use('/', router);
+app.use('/api', router);
 
 // Start server
 app.listen(port, () => {
